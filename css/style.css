@@ -1,13 +1,14 @@
-.blog {
-  text-align: center;
-  background: #212121;
-  margin-top: 50px;
-}
-
 p {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 17.5px;
   font-weight: 300;
+}
+
+#wid {
+  text-transform: uppercase;
+  color: black;
+  font-weight: 200;
+  font-size: 50px;
 }
 
 @media screen and (max-width: 1000px) {
