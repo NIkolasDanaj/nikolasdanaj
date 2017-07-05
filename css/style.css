@@ -1,8 +1,3 @@
-p {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 17.5px;
-  font-weight: 300;
-}
 
 #wid {
   text-transform: uppercase;
@@ -10,6 +5,13 @@ p {
   font-weight: 200;
   font-size: 50px;
 }
+
+p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 17.5px;
+  font-weight: 300;
+}
+
 
 @media screen and (max-width: 1000px) {
   #main .project_content {
