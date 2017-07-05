@@ -1,0 +1,245 @@
+.blog {
+  text-align: center;
+  background: #212121;
+  margin-top: 50px;
+}
+
+p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 17.5px;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 1000px) {
+  #main .project_content {
+    text-align: center;
+  }
+}
+
+#main .container h2 {
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 200;
+  padding: 30px 0 20px 0;
+  font-size: 50px;
+}
+
+#main .container .project_thumbnail {
+  background-color: #F5F5F5;
+  width: 260px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+#main .container .project_thumbnail img {
+  width: 260px;
+  margin-top: 50px;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+#main .container .project_thumbnail img:hover {
+  margin-top: 52px;
+  opacity: 0.8;
+  transition: all 0.2s;
+}
+
+#main .container .project_footer {
+  width: 260px;
+}
+
+#main .container a, #main .container h4 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 800;
+  transition: all 0.2s;
+}
+
+#main .container a:hover, #main .container h4:hover {
+  color: #ef5350;
+  transition: all 0.2s;
+}
+
+#main .container .call_to_action {
+  color: #ef5350;
+}
+
+#main .container .blog {
+  text-align: center;
+  background: #212121;
+  margin-top: 50px;
+}
+
+#main .container .blog .container {
+  padding: 50px 0;
+  width: inherit;
+}
+
+#main .container .blog .container h1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.925rem;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 800;
+  margin-top: 0;
+}
+
+#main .container .blog .container h4 {
+  color: white;
+}
+
+#main .container .blog .container button {
+  border: 1px solid white;
+  padding: 8px 30px;
+  background-color: #212121;
+  margin-top: 5px;
+  transition: all 0.2s;
+}
+
+#main .container .blog .container button:hover {
+  background-color: #ffffff;
+  transition: all 0.2s;
+}
+
+#main .container .blog .container button:hover a {
+  color: #212121;
+  transition: all 0.2s;
+}
+
+#main .container .blog .container button a {
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+#footer {
+  background-color: #212121;
+  margin-top: 75px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer .container .row {
+  height: inherit;
+  width: 100%;
+}
+
+#footer a {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  vertical-align: top;
+}
+
+#footer a, #footer p {
+  padding-left: 18px;
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  transition: all 0.2s;
+  text-align: center;
+}
+
+#footer a:hover, #footer p:hover {
+  color: #ef5350;
+  transition: all 0.2s;
+}
+
+#footer p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 600px) {
+  #footer p {
+    padding-bottom: 5px;
+  }
+}
+
+#footer nav {
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  #footer nav .email {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  #header {
+    margin-top: 20px;
+  }
+}
+
+#header .fa-bars {
+  float: right;
+  margin-top: 25px;
+}
+
+#header .fa-bars:active nav {
+  display: block;
+}
+
+@media screen and (min-width: 600px) {
+  #header .fa-bars {
+    display: none;
+  }
+}
+
+#header h1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 3rem;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 800;
+}
+
+#header nav {
+  margin-top: 20px;
+  display: flex;
+  text-align: right;
+  float: right;
+}
+
+#header nav a {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 17.5px;
+  padding-left: 18px;
+  text-decoration: none;
+  color: black;
+  font-weight: 200;
+  transition: all 0.2s;
+}
+
+#header nav a:hover {
+  color: #ef5350;
+  transition: all 0.2s;
+}
+
+@media screen and (max-width: 600px) {
+  #header nav {
+    display: none;
+    width: 100px;
+  }
+  #header nav a {
+    padding: 10px;
+  }
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: block;
+}
